@@ -74,7 +74,6 @@ const Sidebar = ({
       </Box>
     );
   }
-
  
 
   return (

@@ -157,7 +157,7 @@ const Page = () => {
             </FormGroup>*/}
 
               <FormControl>
-                <FormLabel id="demo-radio-buttons-group-label" className='font-bold'>Category</FormLabel>
+                <FormLabel id="demo-radio-buttons-group-label mb-4" className='font-bold'>Category</FormLabel>
                 <RadioGroup
                   aria-labelledby="demo-radio-buttons-group-label"
                   name="radio-buttons-group"

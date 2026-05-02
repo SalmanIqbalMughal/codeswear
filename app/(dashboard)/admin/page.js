@@ -38,11 +38,12 @@ const Dashboard = () => {
             <DailyActivity />
           </Grid>
           <Grid item xs={12} lg={8}>
-            <ProductPerformance />
+            <ProductPerformance pagetitle={"New Products"} />
           </Grid>
           <Grid item xs={12} lg={12}>
             <BlogCard />
           </Grid>
+
           <Grid item xs={12} lg={12}>
             <div>
               <button
@@ -58,7 +59,9 @@ const Dashboard = () => {
               >
                 Decrement
               </button>
+
               <span style={{ margin: '0 10px' }}>{count}</span>
+
               <button
                 aria-label="Increment value"
                 onClick={() => dispatch(increment())}

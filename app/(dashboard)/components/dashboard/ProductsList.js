@@ -186,6 +186,7 @@ const ProductsList = ({ pagetitle, products }) => {
                     <TableCell align="right">
                       <Typography variant="h6">${product.price}</Typography>
                     </TableCell>
+
                     <TableCell align="right">
                       <Typography variant="h6">
                         <img
@@ -211,8 +212,8 @@ const ProductsList = ({ pagetitle, products }) => {
           </Table>
         </TableContainer>
 
-        <div className="w-full flex flex-row items-center p-5">
-          <div className="flex flex-row items-center gap-4">
+        <div className="w-full flex flex-row justify-center p-5">
+          <div className="gap-4">
             <span
               className="cursor-pointer font-bold btn btn-light"
               onClick={() => setCurrentPage(1)}
